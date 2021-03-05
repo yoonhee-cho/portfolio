@@ -7,10 +7,10 @@ function NavBar() {
 
 
   return (
-    <Navbar className="shadow-sm border-bottom" bg="transparent" expand="lg">
+    <Navbar className="shadow-sm border-bottom sticky-top" bg="white" expand="lg">
 
         <Link to='/'>
-            <Navbar.Brand className="m-3 p-3 logo-box">
+            <Navbar.Brand className="m-3 p-1 logo-box">
             YOON HEE CHO
             </Navbar.Brand>
         </Link>
@@ -20,16 +20,14 @@ function NavBar() {
         <Navbar.Collapse id="navbar-toggle">
             <Nav className="ml-auto justify-content-center">
 
-                <Link className="nav-link m-3 p-3" to="/">
+                <Link className="nav-link m-3 p-1" to="/">
                     <div className="nav-link-text"> WORK</div>
                 
                 </Link>
 
-                <Link className="nav-link m-3 p-3" to="/about">
+                <Link className="nav-link m-3 p-1" to="/about">
                     <div className="nav-link-text">ABOUT</div>   
                 </Link>
-
-                
             
             </Nav>
         </Navbar.Collapse>

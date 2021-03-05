@@ -4,7 +4,7 @@ import DisplayItems from '../components/DisplayItems'
 function HomePage(props){
     return(
         <>
-        <DisplayItems />
+            <DisplayItems />
         </>
     )
 }

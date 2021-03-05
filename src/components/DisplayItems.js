@@ -40,10 +40,10 @@ function DisplayItems(){
 
             <Container fluid={true}>
                
-                <Row className="justify-content-md-center project-box">
+                <Row className="justify-content-md-center project-box p-2 mb-5 pb-3">
                     {projects.map((project) => {
                         return (
-                            <Col lg={6} sm={6}>
+                            <Col lg={6} sm={6} >
                                 <Card
                                     key={project.id} 
                                     item={project}

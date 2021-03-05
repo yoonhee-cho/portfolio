@@ -33,14 +33,6 @@ export const items =[
     },
     {
         id: 3,
-        title: 'CUP & CUP',
-        subTitle: 'sustainable lighting',
-        imgSrc: light,
-        category:'design',
-        link: '/cup'
-    },
-    {
-        id: 3,
         title: 'Korean Comfort Food Recipes',
         subTitle: 'recipe zine',
         imgSrc: recipes,
@@ -49,6 +41,14 @@ export const items =[
     },
     {
         id: 4,
+        title: 'CUP & CUP',
+        subTitle: 'sustainable lighting',
+        imgSrc: light,
+        category:'design',
+        link: '/cup'
+    },
+    {
+        id: 5,
         title: 'Trauma Box',
         subTitle: 'wood working',
         imgSrc: wood,
