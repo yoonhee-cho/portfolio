@@ -18,12 +18,12 @@ function Content(props) {
                 <Col md={5} sm={12} >
                     
                     <div className="about-box">
-                        <h1 className="about-title">
+                        {/* <h1 className="about-title">
                             {`Developer & Designer`}
-                        </h1>
+                        </h1> */}
                         
                         <p className="about-text">
-                        Hello! I'm Yoon, a full-stack/ front-end developer with a passion for
+                        Hello! I'm Yoon, a Full-Stack / Front-End Software Engineer with a passion for
                         crafting web applications with clean code and UI/UX that create practical solutions.
                        
                         </p>
